@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
+SET(CMAKE_OSX_ARCHITECTURES "x86_64;arm64" CACHE STRING "Build all architectures for Mac OS X" FORCE)
+
 project(MP4v2 VERSION 2.1.3)
 
 set(CMAKE_CXX_STANDARD 11)
